@@ -1,19 +1,19 @@
 # 配置服务端口号
 server:
-  port: 8010
+  port: 8017
 
 # 配置数据库连接信息
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.31.240:3306/video_website
+    url: jdbc:mysql://192.168.123.123:3306/video_website
     username: root
     password: 1234
   # Redis的相关配置
   data:
     redis:
-      host: 192.168.31.240
+      host: 192.168.123.123
       port: 6379
 #  password: 1234
 
