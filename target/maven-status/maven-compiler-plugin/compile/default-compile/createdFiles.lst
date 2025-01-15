@@ -1,0 +1,5 @@
+com/atxfb/service/UserService.class
+com/atxfb/common/Result.class
+com/atxfb/common/ResultCodeEnum.class
+com/atxfb/entity/User.class
+com/atxfb/xfbserver/XfbServerApplication.class

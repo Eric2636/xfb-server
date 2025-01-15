@@ -1,0 +1,33 @@
+# 配置服务端口号
+server:
+  port: 8010
+
+# 配置数据库连接信息
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.31.240:3306/video_website
+    username: root
+    password: 1234
+  # Redis的相关配置
+  data:
+    redis:
+      host: 192.168.31.240
+      port: 6379
+#  password: 1234
+
+  springdoc:
+    swagger-ui:
+      path: /swagger-ui.html
+    api-docs:
+      path: /v3/api-docs
+  knife4j:
+    enable: true
+    setting:
+      language: zh_cn
+
+
+
+
+
